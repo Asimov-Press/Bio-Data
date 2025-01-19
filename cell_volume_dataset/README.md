@@ -1,20 +1,22 @@
-## Overview
+## Cell Volume Dataset
 
-This script extracts information from the raw Bionumbers dataset for use in various datasets for our project.
+This script takes the raw Bionumbers dataset and pulls out two sets of volume information:
+- Volume of things within a cell, in this case with a focus on E. coli.
+- Volume of different cells themselves across different organisms.
 
-The raw dataset is [available here](https://bionumbers.hms.harvard.edu/resources.aspx).
+The main [script](./gen_cell_volumes.py) is used to generate the data for our first data brief.
 
-### Biological Sizes
+We also used a script to analyze [E. Coli volume data](./analyze_ecoli_volumes.py) and cross-organism [Cell Volume data](./analyze_cell_volumes.py) to get a sense of what we had available.
 
-Plot showing various sizes of biological molecules, all the way up through cells or collections of cells. The “sizes” of various things in biology, plotted in a single chart (perhaps as volumes).
+### Steps
 
-### Script Overview
+- Filter for keywords related to volume.
+- Use an exclusion list to remove any false positives.
+- Clean the data / units:
+    - Pull out the primary value, or the range if available.
+    - Convert to a standard unit.
+- Save the cleaned data to a CSV file within the `output/` folder.
 
-- `raw_data_qa.py`: Basic QA on the raw data. The file was XLS but we had to read it as HTML.
-- `gen_biological_sizes.py`: Generates a cleaned dataset of biological sizes for use in our first data brief.
+### Output
 
-Here's how we cleaned the data:
-- We filtered for properties that were likely to be sizes (with both inclusion and exclusion lists).
-- We extracted numeric values and standardized units.
-    - Note that some rows had a value, and/or a range. We pull both out where available into the `value` and `min_value` / `max_value` columns.
-- We saved the cleaned data to a CSV file within the `output/`.
+The output is a timestamped CSV file within the `output/` folder.
