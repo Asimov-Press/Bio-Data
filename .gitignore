@@ -1,1 +1,4 @@
-bionumbers/sample_data
+shared/bionumbers/samples/
+__pycache__/
+.ropeproject/
+.DS_Store
