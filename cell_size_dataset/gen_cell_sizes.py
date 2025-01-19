@@ -4,7 +4,7 @@ from shared.util import (
 from shared.bionumbers.parse import (
     clean_size_data
 )
-from cell_volume_dataset.analyze_output import (
+from shared.bionumbers.qa_output import (
     debug_categorization,
     analyze_property_types,
     analyze_property_details
