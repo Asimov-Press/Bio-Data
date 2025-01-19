@@ -1,13 +1,22 @@
 import pandas as pd
 import numpy as np
 import re
+import os
 
 
-def load_bionumbers_data(filepath):
+def load_bionumbers_data(
+    filepath: str = "shared/bionumbers/samples/raw_full_BioNumbers.xls"
+):
     """Load the Bionumbers data from file (supports Excel and HTML formats)"""
     try:
         # First try reading as Excel
-        return pd.read_excel(filepath)
+        print(f"Loading Bionumbers data from {os.path.join(os.getcwd(), filepath)}")
+        return pd.read_excel(
+            os.path.join(
+                os.getcwd(),
+                filepath
+            )
+        )
     except Exception as e:
         print(f"Warning: Could not read as Excel file ({e})")
         print("Attempting to read as HTML...")
