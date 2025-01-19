@@ -22,11 +22,11 @@ bion_id,Properties,property_type,property_of,Organism,value,min_value,max_value,
 105117,Cell volume of marine picoplankton collected in Alaska and North Sea,Cell volume,marine picoplankton collected in Alaska and North Sea,Bacterioplankton,,0.042,0.074,µm^3,,4.2000000000000004e-20,7.4e-20,Cells,,'0.042-0.074
 114961,Cell volume at cell division,Cell volume at cell division,,Fission yeast Schizosaccharomyces pombe,,,,µm^3,,,,Cells,,'at 25ËC 129µm^3: at 35ËC 149µm^3
 114962,Cell volume at log phase,Cell volume at log phase,,Tetrahymena pyriformis (GL),7500.0,,,µm^3,7.500000000000001e-15,,,Cells,7500,
-109355,Cell volume at Î¼=0.11h^-1,Cell volume at Î¼=0.11h^-1,,Bacteria Escherichia coli,0.73,,,fL,0.73,,,Cells,0.73,'Excel table link - http://bionumbers.hms.harvard.edu/files/Growth%20parameters.xlsx
-109356,Cell volume at Î¼=0.21h^-1,Cell volume at Î¼=0.21h^-1,,Bacteria Escherichia coli,0.91,,,fL,0.91,,,Cells,0.91,'Excel table link - http://bionumbers.hms.harvard.edu/files/Growth%20parameters.xlsx
-109357,Cell volume at Î¼=0.31h^-1,Cell volume at Î¼=0.31h^-1,,Bacteria Escherichia coli,1.22,,,fL,1.22,,,Cells,1.22,'Excel table link - http://bionumbers.hms.harvard.edu/files/Growth%20parameters.xlsx
-109358,Cell volume at Î¼=0.40h^-1,Cell volume at Î¼=0.40h^-1,,Bacteria Escherichia coli,1.46,,,fL,1.46,,,Cells,1.46,'Excel table link - http://bionumbers.hms.harvard.edu/files/Growth%20parameters.xlsx
-109359,Cell volume at Î¼=0.49h^-1,Cell volume at Î¼=0.49h^-1,,Bacteria Escherichia coli,1.69,,,fL,1.69,,,Cells,1.69,'Excel table link - http://bionumbers.hms.harvard.edu/files/Growth%20parameters.xlsx
+109355,Cell volume at Î¼=0.11h^-1,Cell volume at Î¼=0.11h^-1,,Bacteria Escherichia coli,0.73,,,fL,7.300000000000001e-19,,,Cells,0.73,'Excel table link - http://bionumbers.hms.harvard.edu/files/Growth%20parameters.xlsx
+109356,Cell volume at Î¼=0.21h^-1,Cell volume at Î¼=0.21h^-1,,Bacteria Escherichia coli,0.91,,,fL,9.100000000000002e-19,,,Cells,0.91,'Excel table link - http://bionumbers.hms.harvard.edu/files/Growth%20parameters.xlsx
+109357,Cell volume at Î¼=0.31h^-1,Cell volume at Î¼=0.31h^-1,,Bacteria Escherichia coli,1.22,,,fL,1.22e-18,,,Cells,1.22,'Excel table link - http://bionumbers.hms.harvard.edu/files/Growth%20parameters.xlsx
+109358,Cell volume at Î¼=0.40h^-1,Cell volume at Î¼=0.40h^-1,,Bacteria Escherichia coli,1.46,,,fL,1.4600000000000001e-18,,,Cells,1.46,'Excel table link - http://bionumbers.hms.harvard.edu/files/Growth%20parameters.xlsx
+109359,Cell volume at Î¼=0.49h^-1,Cell volume at Î¼=0.49h^-1,,Bacteria Escherichia coli,1.69,,,fL,1.69e-18,,,Cells,1.69,'Excel table link - http://bionumbers.hms.harvard.edu/files/Growth%20parameters.xlsx
 103710,Cell volume average,Cell volume average,,Bacteria Escherichia coli,,,,µm^3,,,,Cells,,'0.58 strain K-12 WP2s: 0.69 strain 15-THU
 110041,Cell volume in exponential culture,Cell volume in exponential culture,,Bacteria Escherichia coli,,,,Î¼m^3,,,,Cells,,'glucose minimal medium 0.83Î¼m^3: glucose amino acids medium 1.12Î¼m^3
 115344,"Cell volumes of microorganisms commonly found in natural environments such as soils, freshwater lakes and rivers, estuarine and brackish waters, coastal and nearshore marine waters, or pelagic marine waters",Cell volumes,"microorganisms commonly found in natural environments such as soils, freshwater lakes and rivers, estuarine and brackish waters, coastal and nearshore marine waters, or pelagic marine waters",Microbes,,0.05,0.5,µm^3,,5.0000000000000005e-20,5e-19,Tissues & organs,,'0.05 - 0.5
@@ -72,7 +72,7 @@ bion_id,Properties,property_type,property_of,Organism,value,min_value,max_value,
 108810,Intracellular aqueous volume (Vin),Intracellular aqueous volume (Vin),,Unspecified,2.3,,,Î¼L per mg of dry cell weight (DCW),2.3,,,Cells,2.3,
 109064,Intracellular volume of mouse embryonic stem (ES) cells compared to that of normal mammalian cells,Intracellular volume,mouse embryonic stem (ES) cells compared to that of normal mammalian cells,Mouse Mus musculus,,2.0,3.0,orders of magnitude smaller,,2.0,3.0,Cells,,'2 to 3
 109891,Isosmotic volume of sperm,Isosmotic volume,sperm,Human Homo sapiens,28.5,,,Î¼m^3,2.85e-17,,,Other,28.5,'±0.3 Table link - http://bionumbers.hms.harvard.edu/files/The%20isosmotic%20cell%20volume%20of%20human%20sperm%20at%20different%20temperatures.pdf
-110480,Large intestine fluid volume as determined by magnetic resonance imaging (MRI),Large intestine fluid volume as determined by magnetic resonance imaging (MRI),,Human Homo sapiens,13.0,1.0,44.0,mL,1.3e-05,1e-06,4.4e-05,Other,13,'1 - 44 Table link - http://bionumbers.hms.harvard.edu/files/Gastrointestinal%20fluid%20volumes%20as%20determined%20by%20magnetic%20resonance%20imaging%20(MRI).pdf
+110480,Large intestine fluid volume as determined by magnetic resonance imaging (MRI),Large intestine fluid volume as determined by magnetic resonance imaging (MRI),,Human Homo sapiens,13.0,1.0,44.0,mL,1.3000000000000001e-05,1e-06,4.4e-05,Other,13,'1 - 44 Table link - http://bionumbers.hms.harvard.edu/files/Gastrointestinal%20fluid%20volumes%20as%20determined%20by%20magnetic%20resonance%20imaging%20(MRI).pdf
 106614,"Length, diameter, volume and surface area of cells in different conditions","Length, diameter, volume and surface area",cells in different conditions,Bacteria Escherichia coli,,,,,,,,Cells,,'Table link - http://bionumbers.hms.harvard.edu/files/Effect%20of%20DAP%20concentration%20on%20mean%20dimensions%20of%20cells%20grown%20under%20different%20conditions.pdf
 105705,"Length, width and volume of cardiac myocytes","Length, width and volume",cardiac myocytes,Rat Rattus norvegicus,,,,,,,,Other,,'table link - http://bionumbers.hms.harvard.edu/files/Length%2C%20width%20and%20volume%20of%20rat%20cardiac%20myocytes.pdf
 106309,"Lengths, surfaces, and volumes of cells growing in steady state at 37 °C","Lengths, surfaces, and volumes",cells growing in steady state at 37 °C,Bacteria Escherichia coli,,,,,,,,Cells,,'Table link - http://bionumbers.hms.harvard.edu/files/lengths%2C%20surfaces%2C%20and%20volumes%20of%20cells%20growing%20in%20steady%20state%20at%2037%20%C2%B0C2.pdf
@@ -122,7 +122,7 @@ bion_id,Properties,property_type,property_of,Organism,value,min_value,max_value,
 104715,Nuclear and intrachromosomal volume of HeLa cells uninfected and infected by herpes simplex virus,Nuclear and intrachromosomal volume,HeLa cells uninfected and infected by herpes simplex virus,Human Homo sapiens,,,,,,,,Nuclei,,'Table link - http://bionumbers.hms.harvard.edu/files/Nuclear%20and%20interchromosomal%20volumes.pdf
 107660,Nuclear volume of yeast spore cell,Nuclear volume,yeast spore cell,Budding yeast Saccharomyces cerevisiae,0.28,,,Î¼m^3,2.8000000000000005e-19,,,Nuclei,0.28,
 106665,Nuclear volume of HeLa cell,Nuclear volume,HeLa cell,Human Homo sapiens,220.0,,,µm^3,2.2000000000000002e-16,,,Nuclei,220,'Table link - http://bionumbers.hms.harvard.edu/files/HeLa%20and%20COS7%20cell%20and%20nucleus'%20diameter%20and%20volume.pdf
-100302,Nuclear volume of a stage VI Xenopus laevis oocyte,Nuclear volume,a stage VI Xenopus laevis oocyte,African clawed frog Xenopus laevis,40.0,,,nL,4e-11,,,Nuclei,40,
+100302,Nuclear volume of a stage VI Xenopus laevis oocyte,Nuclear volume,a stage VI Xenopus laevis oocyte,African clawed frog Xenopus laevis,40.0,,,nL,4.0000000000000004e-11,,,Nuclei,40,
 100447,Nuclear volume (average),Nuclear volume (average),,Budding yeast Saccharomyces cerevisiae,2.9,,,µm^3,2.9e-18,,,Nuclei,2.9,
 107801,"Nuclear volume and cell volume in shoot meristems of 14 species of herbaceous angiosperms, and average nuclear volume/cell volume for each species",Nuclear volume and cell volume in shoot meristems,"14 species of herbaceous angiosperms, and average nuclear volume/cell volume for each species",Plants,,,,,,,,Nuclei,,'Table link - http://bionumbers.hms.harvard.edu/files/Nuclear%20volume%20and%20cell%20volume%20in%20shoot%20meristems%20of%2014%20species%20of%20herbaceous%20angiosperms%2C%20and%20average%20nuclear%20volume-cell%20volume%20for%20each%20species.pdf
 107800,"Nuclear volumes, DNA content per cell, interphase chromosome volumes, and DNA content per chromosome of 30 species of higher plants","Nuclear volumes, DNA content per cell, interphase chromosome volumes, and DNA content per chromosome",30 species of higher plants,Plants,,,,,,,,DNA/RNA structures,,'Table link - http://bionumbers.hms.harvard.edu/files/Nuclear%20volumes%2C%20DNA%20content%20per%20cell%2C%20interphase%20chromosome%20volumes%2C%20and%20DNA%20content%20per%20chromosome%20of%2030%20species%20of%20higher%20plants.pdf
@@ -292,6 +292,7 @@ bion_id,Properties,property_type,property_of,Organism,value,min_value,max_value,
 101398,Volume of Nucleus,Volume,Nucleus,Tetrahymena pyriformis (GL),678.0,,,µm^3,6.780000000000001e-16,,,Nuclei,678,
 104716,HeLa cell nucleus volume,Volume,hela cell nucleus,Human Homo sapiens,690.0,,,µm^3,6.900000000000001e-16,,,Nuclei,690,
 103956,Alveolar type I cell volume,Volume,alveolar type i cell,Rat Rattus norvegicus,716.0,,,µm^3,7.160000000000001e-16,,,Cells,716,'±84
+106738,Volume of cell,Volume,cell,Mammalian tissue culture cell,1.0,,,pL,1e-15,,,Cells,1,
 106591,Volume of human esophageal epithelial cells,Volume,human esophageal epithelial cells,Human Homo sapiens,1010.0,,,Î¼m^3,1.01e-15,,,Cells,1010,'±321 Table link - http://bionumbers.hms.harvard.edu/files/Descriptive%20statistics%20of%20selected%20features%20of%20human%20esophageal%20epithelial%20cells.pdf
 109227,Volume of Î²-cell,Volume,Î²-cell,Rat Rattus norvegicus,1020.0,,,Î¼m^3,1.02e-15,,,Cells,1020,
 116929,Volume of alveolar macrophage (AM) in normal rat,Volume,alveolar macrophage (AM) in normal rat,Rat Rattus norvegicus,1170.0,400.0,5000.0,µm^3,1.17e-15,4.0000000000000004e-16,5e-15,Other,1170,'400 - 5000
@@ -302,12 +303,14 @@ bion_id,Properties,property_type,property_of,Organism,value,min_value,max_value,
 115154,Volume of MCF-7 (breast cancer) cell,Volume,MCF-7 (breast cancer) cell,Human Homo sapiens,1760.0,,,µm^3,1.7600000000000002e-15,,,Cells,1760,
 106690,Volume of neuron in the medial preoptic nucleus (MPN mag),Volume,neuron in the medial preoptic nucleus (MPN mag),Syrian Hamster Mesocricetus auratus,2000.0,,,Î¼m^3,2e-15,,,Nuclei,2000,
 101666,Volume of COS-7 cell,Volume,COS-7 cell,Mammalian tissue culture cell,2016.0,,,µm^3,2.016e-15,,,Cells,2016,'±208.6
+108979,Volume of NIH 3T3 fibroblasts not expressing the ras oncogene,Volume,NIH 3T3 fibroblasts not expressing the ras oncogene,Mouse Mus musculus,2.04,,,pL,2.0400000000000004e-15,,,Other,2.04,'±0.1
 104143,Volume of nontumorigenic cell in the exponential phase,Volume,nontumorigenic cell in the exponential phase,Mammalian tissue culture cell,2110.0,,,µm^3,2.11e-15,,,Cells,2110,'±180
 100434,Characteristic cell volume,Volume,characteristic cell,Human Homo sapiens,2250.0,500.0,4000.0,µm^3,2.2500000000000003e-15,5e-16,4e-15,Cells,2250,'500 - 4000
 108244,Volume of senescent human diploid fibroblast,Volume,senescent human diploid fibroblast,Human Homo sapiens,2260.0,,,µm^3,2.26e-15,,,Other,2260,'Table link - http://bionumbers.hms.harvard.edu/files/Cell%20population%20doubling%20time%20and%20modal%20cell%20volumes%20at%20different%20levels%20of%20in%20vitro%20passage.pdf
 103725,HeLa cell volume,Volume,hela cell,Human Homo sapiens,2425.0,1198.0,4290.0,µm^3,2.425e-15,1.1980000000000001e-15,4.290000000000001e-15,Cells,2425,'1198-4290
 104614,Volume of HepG2 liver cancer cell,Volume,HepG2 liver cancer cell,Human Homo sapiens,2850.0,,,µm^3,2.85e-15,,,Cells,2850,
 104895,Volume of arginine vasopressin synthesizing neuron in the hypothalamic supraoptic nucleus,Volume,arginine vasopressin synthesizing neuron in the hypothalamic supraoptic nucleus,Human Homo sapiens,3042.0,,,µm^3,3.042e-15,,,Nuclei,3042,'±491 table link - http://bionumbers.hms.harvard.edu/files/Mean%2B-SEM%20of%20cell%20size%20parameters%20in%20AVP%20(arginine%20vasopressin)%20neurons%20in%20different%20age%20groups%20in%20the%20SON%20(supraoptic%20nuclei).pdf
+107308,Volume of mesangial cell,Volume,mesangial cell,Rat Rattus norvegicus,3137.4,,,fL,3.1374000000000005e-15,,,Cells,3137.4,'±62.1
 105879,Volume of HeLa cell,Volume,HeLa cell,Human Homo sapiens,3700.0,,,µm^3,3.7e-15,,,Cells,3700,"'±1,500 Table link - http://bionumbers.hms.harvard.edu/files/Cross%20section%20and%20volumeof%20HeLa%20cells.pdf"
 108242,Volume of outer hair cell 50 Î¼m long,Volume,outer hair cell 50 Î¼m long,Mammals,3900.0,,,Î¼m^3,3.9e-15,,,Cells,3900,
 105906,Volume of a typical cell,Volume,a typical cell,Mammalian tissue culture cell,4000.0,,,µm^3,4e-15,,,Cells,4000,
@@ -319,9 +322,11 @@ bion_id,Properties,property_type,property_of,Organism,value,min_value,max_value,
 114963,Cell volume,Volume,cell,Tetrahymena pyriformis (GL),15230.0,,,µm^3,1.5230000000000002e-14,,,Cells,15230,"'±1,890"
 114965,Cell volume,Volume,cell,Ciliate Tetrahymena pyriformis,17067.0,,,µm^3,1.7067e-14,,,Cells,17067,
 114964,Cell volume,Volume,cell,Tetrahymena pyriformis (GL),19500.0,,,µm^3,1.9500000000000002e-14,,,Cells,19500,"'±2,865"
+101423,"Volume of egg, from N2 worms grown at 24ËC",Volume,"egg, from N2 worms grown at 24ËC",Nematode Caenorhabditis elegans,31.0,,,pL,3.0999999999999994e-14,,,Other,31,'4
+101662,Volume of Mouse blastomere at two-cell stage,Volume,Mouse blastomere at two-cell stage,Mouse Mus musculus,56.0,,,pL,5.6e-14,,,Cells,56,'±5
 104794,Volume of mesophyll cell in Norway Spruce needles,Volume,mesophyll cell in Norway Spruce needles,Tree Norway Spruce Picea abies,109060.0,,,µm^3,1.0906e-13,,,Cells,109060,'±31028
 117325,Cell volume,Volume,cell,Amoeba Proteus,936000.0,,,Î¼m^3,9.36e-13,,,Cells,936000,
-101664,Volume of human oocyte,Volume,human oocyte,Human Homo sapiens,3.59,,,nL,3.59e-12,,,Other,3.59,'±0.12
+101664,Volume of human oocyte,Volume,human oocyte,Human Homo sapiens,3.59,,,nL,3.5900000000000003e-12,,,Other,3.59,'±0.12
 101477,Volume of alveolus,Volume,alveolus,Human Homo sapiens,4200000.0,0.0,4.0,µm^3,4.200000000000001e-12,0.0,4e-18,Other,4200000,"'3,300,000 to 4,800,000 table link - http://bionumbers.hms.harvard.edu/files/Lung%20and%20alveoli.pdf"
 106735,Volume of oocyte,Volume,oocyte,African clawed frog Xenopus laevis,1.0,,,Î¼L,1e-09,,,Other,1,
 107214,Maximal volume,Volume,maximal,Amoeba Proteus,1.0,,,mm^3,1e-09,,,Other,1,
@@ -336,25 +341,20 @@ bion_id,Properties,property_type,property_of,Organism,value,min_value,max_value,
 105589,Volume of a C3 plant leaf (with area of 1m^2),Volume,a C3 plant leaf (with area of 1m^2),Plants,0.0003,,,m^3,0.0003,,,Other,0.0003,
 103190,Volume of White matter in neocortex,Volume,White matter in neocortex,Human Homo sapiens,451.0,,,cm^3,0.00045099999999999996,,,Other,451,
 103188,Volume of the neocortex,Volume,the neocortex,Human Homo sapiens,489.0,,,cm^3,0.000489,,,Other,489,
-116113,Adult human tidal volume,Volume,adult human tidal,Human Homo sapiens,500.0,300.0,700.0,ml,0.0005,0.0003,0.0007,Other,500,'300-700
+116113,Adult human tidal volume,Volume,adult human tidal,Human Homo sapiens,500.0,300.0,700.0,ml,0.0005,0.0003,0.0007000000000000001,Other,500,'300-700
 105104,Volume of egg,Volume,egg,Ostrich Struthio camelus,1338.0,,,cm^3,0.001338,,,Other,1338,
 117299,SAR11 cell volume,Volume,sar11 cell,Alphaproteobacteria,0.074,,,cubic micrometers,0.074,,,Cells,0.074,
 104738,Envelope volume,Volume,envelope,Bacteria Escherichia coli,0.14,0.09,0.27,fL or µm^3,0.14,0.09,0.27,Cell organelles,0.14,"'0.09 to 0.27, dependent on growth doubling time, ranging from 150 to 20 min."
 117298,Prochlorococcus cell volume,Volume,prochlorococcus cell,Cyanobacteria,0.28,,,cubic micrometers,0.28,,,Cells,0.28,
-106738,Volume of cell,Volume,cell,Mammalian tissue culture cell,1.0,,,pL,1.0,,,Cells,1,
 112053,Brain volume,Volume,brain,Human Homo sapiens,1.5,,,liter,1.5,,,Other,1.5,
 112806,Specific cell volume,Volume,specific cell,Budding yeast Saccharomyces cerevisiae,1.7,,,ml/gDW,1.7,,,Cells,1.7,
 108136,Specific cell volume,Volume,specific cell,Bacteria Escherichia coli,1.77,,,Î¼l/mg dry weight,1.77,,,Cells,1.77,
 111353,Specific cell volume,Volume,specific cell,Budding yeast Saccharomyces cerevisiae,2.0,1.0,2.0,ml/g,2.0,1.0,2.0,Cells,2,'1-2
 108132,Specific cell volume,Volume,specific cell,Fungi Cephalosporium acremonium,2.0,,,Î¼l/mg,2.0,,,Cells,2,
-108979,Volume of NIH 3T3 fibroblasts not expressing the ras oncogene,Volume,NIH 3T3 fibroblasts not expressing the ras oncogene,Mouse Mus musculus,2.04,,,pL,2.04,,,Other,2.04,'±0.1
 108135,Specific cell volume,Volume,specific cell,Bacteria Escherichia coli,2.78,,,Î¼l/mg,2.78,,,Cells,2.78,
 109011,Volume of chloroplast occupied by starch,Volume,chloroplast occupied by starch,Thale cress Arabidopsis thaliana,15.0,,,%,15.0,,,Cell organelles,15,
-101423,"Volume of egg, from N2 worms grown at 24ËC",Volume,"egg, from N2 worms grown at 24ËC",Nematode Caenorhabditis elegans,31.0,,,pL,31.0,,,Other,31,'4
-101662,Volume of Mouse blastomere at two-cell stage,Volume,Mouse blastomere at two-cell stage,Mouse Mus musculus,56.0,,,pL,56.0,,,Cells,56,'±5
 109718,Human body mean volume,Volume,human body mean,Human Homo sapiens,65.22,,,Liters,65.22,,,Other,65.22,
 105094,Volume of cell occupied by water,Volume,cell occupied by water,Budding yeast Saccharomyces cerevisiae,68.0,,,%,68.0,,,Cells,68,
-107308,Volume of mesangial cell,Volume,mesangial cell,Rat Rattus norvegicus,3137.4,,,fL,3137.4,,,Cells,3137.4,'±62.1
 112450,Volume of today's oceans is circulated through hydrothermal vents about once every,Volume,today's oceans is circulated through hydrothermal vents about once every,Biosphere,100000.0,,,years,100000.0,,,Other,100000,
 112496,Alpha motor neuron volume,Volume,alpha motor neuron,Mouse Mus musculus,,0.0,10.0,µm^3,,0.0,1e-17,Other,,"'most cells >10,000µm^3: remaining cells 5,000-10,000µm^3"
 111631,Volume of nanobacteria,Volume,nanobacteria,bacteria,,0.008,0.014,µm^3,,8.000000000000001e-21,1.4e-20,Cells,,'0.008 - 0.014 marine actinobacteria 0.013
@@ -366,7 +366,7 @@ bion_id,Properties,property_type,property_of,Organism,value,min_value,max_value,
 107971,Volume of dinoflagellate species analyzed,Volume,dinoflagellate species analyzed,Protists,,180.0,279.0,Î¼m^3,,1.8000000000000002e-16,2.79e-16,Other,,"'180 to 279,000 Table link - http://bionumbers.hms.harvard.edu/files/Linear%20dimensions%20and%20volume%2C%20C%20and%20N%20quota%2C%20density%20%2C%20and%20C-N%20ratios%20of%20dinoflagellate%20species%20analyzed%20in%20this%20study.pdf"
 102635,Volume of marker taken up by a dendritic cell,Volume,marker taken up by a dendritic cell,Human Homo sapiens,,1000.0,1500.0,µm^3,,1e-15,1.5000000000000001e-15,Cells,,'1000-1500
 103719,HeLa cell volume,Volume,hela cell,Human Homo sapiens,,4400.0,5000.0,µm^3,,4.4000000000000005e-15,5e-15,Cells,,'4400-5000 table link - http://bionumbers.hms.harvard.edu/files/Comparison%20of%20the%20values%20for%20mean%20cell%20volume%20obtained%20by%20different%20methods.pdf
-107438,Cytosol volume,Volume,cytosol,Wheat Triticum aestivum,,10.0,12.0,Î¼L,,1e-08,1.2000000000000002e-08,Other,,'10 to 12
+107438,Cytosol volume,Volume,cytosol,Wheat Triticum aestivum,,10.0,12.0,Î¼L,,9.999999999999999e-09,1.2e-08,Other,,'10 to 12
 103938,Brain tumor volume,Volume,brain tumor,Human Homo sapiens,,22.0,85.0,cm^3,,2.2e-05,8.499999999999999e-05,Other,,'22-85
 111314,Volume of ileal effluent which passes daily through the ileocaecal valve,Volume,ileal effluent which passes daily through the ileocaecal valve,Human Homo sapiens,,1.5,2.0,litres,,1.5,2.0,Other,,'1.5 - 2
 117319,Rumen volume,Volume,rumen,Cow Bos Taurus,,150.0,200.0,Liters,,150.0,200.0,Other,,'150 - 200
@@ -405,7 +405,6 @@ bion_id,Properties,property_type,property_of,Organism,value,min_value,max_value,
 113819,Average cellular and nuclear volume,Volume,average cellular and nuclear,Amoeba Proteus,,,,mm^3,,,,Nuclei,,'cell 0.497mm^3±3%: nucleus 0.00775mm^3±2%
 113874,Average cell volume,Volume,average cell,Cyanobacteria Synechocystis PCC 6803,,,,fL or µm^3,,,,Cells,,'at growth rate 0.04/hour 5fL: at growth rate 0.11/hour 11fL
 114012,Volume of pronucleus,Volume,pronucleus,Mouse Mus musculus,,,,pL,,,,Nuclei,,'in 1-cell stage embryo 8.24 ± 0.19: in blastocysts 0.69 ± 0.02
-114049,Volume of cell in different stages of growth and media,Volume,cell in different stages of growth and media,Bacteria Escherichia coli,,,,,,,,Cells,,'Table link - http://bionumbers.hms.harvard.edu/files/Volume%20of%20an%20E.%20coli%20cell%20in%20different%20stages%20of%20growth%20and%20media.pdf
 114126,Volume of mammalian cell nucleus is larger than yeast nucleus or bacterial cell,Volume,mammalian cell nucleus is larger than yeast nucleus or bacterial cell,Various,,,,fold,,,,Nuclei,,"'~1,000"
 114945,Volume of cell,Volume,cell,Budding yeast Saccharomyces cerevisiae,,,,µm^3,,,,Cells,,'69µm^3 at growth rate 0.35h^-1: 52.6µm^3 averaged over seven growth rates
 115152,Volume of erythrocyte,Volume,erythrocyte,Human Homo sapiens,,,,µm^3,,,,Other,,'â90
@@ -439,9 +438,7 @@ bion_id,Properties,property_type,property_of,Organism,value,min_value,max_value,
 115527,"Volumes of various body fluids and organs in the mouse, rat, rabbit, monkey, dog and human",Volumes,"various body fluids and organs in the mouse, rat, rabbit, monkey, dog and human",Mammals,,,,mL,,,,Tissues & organs,,'Table link - http://bionumbers.hms.harvard.edu/files/Volumes%20of%20various%20body%20fluids%20and%20organs%20in%20the%20mouse%2C%20rat%2C%20rabbit%2C%20monkey%2C%20dog%20and%20human.pdf
 111022,Volumes absorbed by the small and large intestine per day,Volumes absorbed by the small and large intestine per day,,Human Homo sapiens,,,,,,,,Other,,'Table link - http://bionumbers.hms.harvard.edu/files/Volumes%20absorbed%20by%20the%20small%20and%20large%20intestine%20per%20day.pdf
 106713,Volumes and element content of bacteria from different locations and cultures,Volumes and element content,bacteria from different locations and cultures,bacteria,,,,,,,,Cells,,'Table link - http://bionumbers.hms.harvard.edu/files/Volumes%20and%20element%20content%20of%20bacteria%20from%20different%20locations%20and%20cultures.pdf
-108420,Volumes inaccessible to taurine and water in E.coli grown in MBM as a function of the osmolarity of the growth medium,Volumes inaccessible to taurine and water in E.coli grown in MBM as a function,the osmolarity of the growth medium,Bacteria Escherichia coli,,,,Î¼l/mg dry weight,,,,Cells,,'Table link - http://bionumbers.hms.harvard.edu/files/Volumes%20inaccessible%20to%20taurine%20and%20water%20in%20E.coli%20grown%20in%20MBM%20as%20a%20function%20of%20the%20osmolarity%20of%20the%20growth%20medium.pdf
 108294,Volumetric measurement of cells and cell components,Volumetric measurement,cells and cell components,Budding yeast Saccharomyces cerevisiae,,,,Î¼m^3,,,,Cells,,'Table link - http://bionumbers.hms.harvard.edu/files/Volumetric%20measurement%20of%20S.%20cerevisiae%20cells%20and%20cell%20components.pdf
-107846,Water-accessible volumes (mL H2O/mg DW) of the cell and compartments of growing cells and of centrifugally harvested suspensions,Water-accessible volumes (mL H2O/mg DW),the cell and compartments of growing cells and of centrifugally harvested suspensions,Bacteria Escherichia coli,,,,,,,,Cells,,'Table link - http://bionumbers.hms.harvard.edu/files/Water-accessible%20volumes%20(mL%20H2O-mg%20DW)%20of%20the%20cell%20and%20compartments%20of%20growing%20cells%20and%20of%20centrifugally%20harvested%20suspensions.pdf
 100927,mitochondria volume share in the cell,mitochondria volume share in the cell,,Human Homo sapiens,13.0,,,%,13.0,,,Cell organelles,13,
 100930,mitochondria volume share in the cell,mitochondria volume share in the cell,,Cod,,1.0,25.0,%,,1.0,25.0,Cell organelles,,'1-25
 100928,mitochondria volume share in the cell,mitochondria volume share in the cell,,Rat Rattus norvegicus,,8.0,38.0,%,,8.0,38.0,Cell organelles,,'8-38

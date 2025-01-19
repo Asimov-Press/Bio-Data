@@ -126,26 +126,24 @@ def standardize_units(value, unit):
         'mm³': 1e-9,
         'cm³': 1e-6,
         'm³': 1.0,
-        'µl': 1e-9,     # 1 µL = 1 mm³ = 1e-9 m³
-        'ml': 1e-6,     # 1 mL = 1 cm³ = 1e-6 m³
-        'l': 1e-3,      # 1 L = 1e-3 m³
-        'nl': 1e-12,    # 1 nL = 1e-12 m³
+        'fl': 1e-15,    # 1 fL = 1e-15 L = 1e-18 m³
+        'pl': 1e-12,    # 1 pL = 1e-12 L = 1e-15 m³
+        'nl': 1e-9,     # 1 nL = 1e-9 L = 1e-12 m³
+        'µl': 1e-6,     # 1 µL = 1e-6 L = 1e-9 m³
+        'ml': 1e-3,     # 1 mL = 1e-3 L = 1e-6 m³
+        'l': 1.0,       # 1 L = 1e-3 m³
         'å³': 1e-30,    # 1 Å³ = (1e-10 m)³ = 1e-30 m³
         # Area units
         'µm²': 1e-12,
         'nm²': 1e-18,
         'mm²': 1e-6,
         'cm²': 1e-4,
-        'm²': 1.0,
-        # Mass units (if needed)
-        'fg': 1e-15,
-        'pg': 1e-12,
-        'ng': 1e-9,
-        'µg': 1e-6,
-        'mg': 1e-3,
-        'g': 1.0
+        'm²': 1.0
     }
 
     if unit in conversion:
+        # For volume units in liters, convert to cubic meters
+        if unit in ['fl', 'pl', 'nl', 'µl', 'ml', 'l']:
+            return value * conversion[unit] * 1e-3  # Convert L to m³
         return value * conversion[unit]
     return value
