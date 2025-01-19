@@ -23,6 +23,16 @@ def parse_property(prop_str):
     if len(parts) == 2:
         return parts[0].strip(), parts[1].strip()
     
+    # Handle "X volume" or "X length" etc cases
+    measurement_types = ['volume', 'length', 'diameter', 'radius', 'size', 
+                        'width', 'height', 'area', 'mass']
+    
+    words = prop_str.lower().split()
+    if len(words) >= 2:
+        last_word = words[-1]
+        if last_word in measurement_types:
+            return last_word.title(), ' '.join(words[:-1]).strip()
+    
     return prop_str.strip(), None
 
 
@@ -70,7 +80,8 @@ def categorize_scale(row):
 def clean_size_data(
     df,
     cell_volume_only=False,
-    general_size_only=True
+    general_size_only=True,
+    exclude_keywords=[]
 ):
     """Extract and clean size-related measurements"""
     if cell_volume_only and general_size_only:
@@ -78,50 +89,22 @@ def clean_size_data(
     
     # Expanded keywords related to size measurements
     size_keywords = [
-        'cell volume', 'volume of'
+        'cell volume', 'volume of', 'volume'
     ] if cell_volume_only else [
         'length', 'diameter', 'volume', 'size', 'radius',
         'width', 'surface area', 'cross section',
         'dimensions', 'axes', 'rule of thumb'
     ] if general_size_only else []
 
-    specific_terms = [
-        'molecular', 'molecule', 'protein', 'dna', 'rna', 
-        'organelle', 'cell', 'tissue',
-        # Additional specific terms
-        'nuclear', 'cytoplasm', 'envelope', 'periplasm',
-        'chromatid', 'chromosome', 'mitochondria', 'chloroplast',
-        'ribosome', 'vesicle', 'membrane'
-    ]
-    size_keywords.extend(specific_terms)
-
-    # Properties to exclude (false positives)
-    exclude_keywords = [
-        'rate', 'constant', 'time', 'energy', 'force',
-        'concentration', 'abundance', 'number', 'strength',
-        'half-life', 'buffering capacity', 'thickness',
-        'density', 'weight', 'mass',
-        'ratio', 'fraction', 'percentage',
-        'selection coefficient', 'flux through',
-        'net pressure', 'maximum level',
-        'various kinds', 'rapidly degrading', 'free level',
-        'ph of', 'physical parameters', 'variation in',
-        'probability of', 'power', 'population', 'turnover of',
-        'activity of', 'translational diffusion', 'halflives of',
-        'affinity of', 'processivity of', 'speed of',
-        'diffusion coefficient', 'elemental composition',
-        'kinetic parameters', 'cytoplasmic ph', 'periplasmic ph',
-        'lacz mrna per', 'percent of heat shock', 'half-lives of',
-        'No. of ribosomes', 'comparison of channel counts', 'peak level of',
-        'reads per kilobase', 'review course', 'cutoff value', 'half life of',
-        'wavelength for', 'distance on', 'residual bulk', 'halflife of',
-        'contribution of', 'twenty most', 'internal ph', 'different temperatures',
-        'precursor requirements', 'cell dry yield', 'most abundant', 'protein copies',
-        'increase in', 'decrease in', 'co-segregation', 'cosegregation', 'replication speed',
-        'cellular location', 'resting potential', 'donnan potential', 'odor thresholds', 'halflife',
-        'peak in', 'oscillations', 'in the following organisms', 'atp demand', 'mechanoelectrical sensitivity',
-        'pool turnover'
-    ]
+    # specific_terms = [
+    #     'molecular', 'molecule', 'protein', 'dna', 'rna', 
+    #     'organelle', 'cell', 'tissue',
+    #     # Additional specific terms
+    #     'nuclear', 'cytoplasm', 'envelope', 'periplasm',
+    #     'chromatid', 'chromosome', 'mitochondria', 'chloroplast',
+    #     'ribosome', 'vesicle', 'membrane'
+    # ]
+    # size_keywords.extend(specific_terms)
 
     # Filter for size-related properties
     mask = (

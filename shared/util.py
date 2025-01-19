@@ -93,6 +93,11 @@ def normalize_unit(unit_str):
     unit = unit.replace('^2', '²')
     unit = unit.replace('^3', '³')
     
+    # Standardize Angstroms
+    unit = unit.replace('å', 'a')  # Convert å to a
+    unit = re.sub(r'a\^3|a³', 'å³', unit)  # Standardize to å³
+    unit = re.sub(r'[aA]\^3|[aA]³', 'å³', unit)  # Handle both cases
+    
     # Debug output
     if unit_str != unit:
         print(f"Normalized unit: '{unit_str}' -> '{unit}'")
@@ -121,9 +126,11 @@ def standardize_units(value, unit):
         'mm³': 1e-9,
         'cm³': 1e-6,
         'm³': 1.0,
-        'µl': 1e-9,    # 1 µL = 1 mm³ = 1e-9 m³
-        'ml': 1e-6,    # 1 mL = 1 cm³ = 1e-6 m³
-        'l': 1e-3,     # 1 L = 1e-3 m³
+        'µl': 1e-9,     # 1 µL = 1 mm³ = 1e-9 m³
+        'ml': 1e-6,     # 1 mL = 1 cm³ = 1e-6 m³
+        'l': 1e-3,      # 1 L = 1e-3 m³
+        'nl': 1e-12,    # 1 nL = 1e-12 m³
+        'å³': 1e-30,    # 1 Å³ = (1e-10 m)³ = 1e-30 m³
         # Area units
         'µm²': 1e-12,
         'nm²': 1e-18,

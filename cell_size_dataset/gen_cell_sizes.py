@@ -13,12 +13,44 @@ from datetime import date
 
 
 
+CELL_SIZE_EXCLUDE_KEYWORDS = [
+    'rate', 'constant', 'time', 'energy', 'force',
+    'concentration', 'abundance', 'number', 'strength',
+    'half-life', 'buffering capacity', 'thickness',
+    'density', 'weight', 'mass',
+    'ratio', 'fraction', 'percentage',
+    'selection coefficient', 'flux through',
+    'net pressure', 'maximum level',
+    'various kinds', 'rapidly degrading', 'free level',
+    'ph of', 'physical parameters', 'variation in',
+    'probability of', 'power', 'population', 'turnover of',
+    'activity of', 'translational diffusion', 'halflives of',
+    'affinity of', 'processivity of', 'speed of',
+    'diffusion coefficient', 'elemental composition',
+    'kinetic parameters', 'cytoplasmic ph', 'periplasmic ph',
+    'lacz mrna per', 'percent of heat shock', 'half-lives of',
+    'No. of ribosomes', 'comparison of channel counts', 'peak level of',
+    'reads per kilobase', 'review course', 'cutoff value', 'half life of',
+    'wavelength for', 'distance on', 'residual bulk', 'halflife of',
+    'contribution of', 'twenty most', 'internal ph', 'different temperatures',
+    'precursor requirements', 'cell dry yield', 'most abundant', 'protein copies',
+    'increase in', 'decrease in', 'co-segregation', 'cosegregation', 'replication speed',
+    'cellular location', 'resting potential', 'donnan potential', 'odor thresholds', 'halflife',
+    'peak in', 'oscillations', 'in the following organisms', 'atp demand', 'mechanoelectrical sensitivity',
+    'pool turnover', 'per unit', 'on tryptophan', 'of ocean water', 'volume usage', 'volume variation',
+    'volume, growth, and yield'
+]
+
 def main():
     # Load data
     df = load_bionumbers_data()
 
     # Process and clean the data
-    size_data = clean_size_data(df, general_size_only=True)
+    size_data = clean_size_data(
+        df, 
+        general_size_only=True,
+        exclude_keywords=CELL_SIZE_EXCLUDE_KEYWORDS
+    )
 
     # Debug categorization
     debug_categorization(size_data)
