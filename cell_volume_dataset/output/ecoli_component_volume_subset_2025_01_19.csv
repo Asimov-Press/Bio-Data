@@ -1,0 +1,35 @@
+bion_id,Properties,property_type,property_of,Organism,value,min_value,max_value,Units,standardized_value,standardized_min,standardized_max,category,original_value,original_range
+101788,"""Rule of thumb"" for cell volume","""Rule of thumb""",""" for cell volume",Bacteria Escherichia coli,1.0,,,µm^3,1e-18,,,Cells,1,
+114925,Cell volume,Volume,cell,Bacteria Escherichia coli,0.47,,,µm^3,4.7e-19,,,Cells,0.47,
+114924,Cell volume,Volume,cell,Bacteria Escherichia coli,1.46,,,µm^3,1.4600000000000001e-18,,,Cells,1.46,
+102067,Volume of cell,Volume,cell,Bacteria Escherichia coli,2.0,,,µm^3,2e-18,,,Cells,2,
+100003,Cell volume,Volume,cell,Bacteria Escherichia coli,,0.1,3.5,Î¼m^3,,1.0000000000000001e-19,3.5e-18,Cells,,'0.1-3.5
+100053,Volume occupied by LPS,Volume occupied by LPS,,Bacteria Escherichia coli,1.0,,,%,1.0,,,Cells,1,
+100046,Volume occupied by all RNA,Volume occupied by all RNA,,Bacteria Escherichia coli,6.0,,,%,6.0,,,DNA/RNA structures,6,
+100055,Volume occupied by glycogen,Volume occupied by glycogen,,Bacteria Escherichia coli,1.0,,,%,1.0,,,Cells,1,
+100056,Volume occupied by ions,Volume occupied by ions,,Bacteria Escherichia coli,0.3,,,%,0.3,,,Cells,0.3,
+100052,Volume occupied by lipid,Volume occupied by lipid,,Bacteria Escherichia coli,3.0,,,%,3.0,,,Cells,3,
+100049,Volume occupied by mRNA,Volume occupied by mRNA,,Bacteria Escherichia coli,0.2,,,%,0.2,,,DNA/RNA structures,0.2,
+100054,Volume occupied by murein,Volume occupied by murein,,Bacteria Escherichia coli,1.0,,,%,1.0,,,Cells,1,
+100045,Volume occupied by protein,Volume occupied by protein,,Bacteria Escherichia coli,17.0,,,%,17.0,,,Small molecules & proteins,17,
+100047,Volume occupied by rRNA,Volume occupied by rRNA,,Bacteria Escherichia coli,5.0,,,%,5.0,,,DNA/RNA structures,5,
+100051,Volume occupied by ribosomes,Volume occupied by ribosomes,,Bacteria Escherichia coli,8.0,,,%,8.0,,,Cell organelles,8,
+100057,Volume occupied by small organics,Volume occupied by small organics,,Bacteria Escherichia coli,1.0,,,%,1.0,,,Cells,1,
+100048,Volume occupied by tRNA,Volume occupied by tRNA,,Bacteria Escherichia coli,0.8,,,%,0.8,,,DNA/RNA structures,0.8,
+100044,Volume occupied by water,Volume occupied by water,,Bacteria Escherichia coli,70.0,,,%,70.0,,,Cells,70,'Table Link - http://bionumbers.hms.harvard.edu/files/Composition%20of%20an%20average%20E.%20coli%20B-r%20cell.pdf
+103763,Volume of water molecule bound to an amino acid,Volume,water molecule bound to an amino acid,Generic,25.8,,,Å^3,2.58e-29,,,Small molecules & proteins,25.8,'±3.8
+105874,Volume of water molecule in bulk water,Volume,water molecule in bulk water,Generic,29.7,,,Å^3,2.97e-29,,,Small molecules & proteins,29.7,
+106549,Volume of water molecule at 20°C,Volume,water molecule at 20°C,Generic,30.0,,,Å^3,3e-29,,,Small molecules & proteins,30,'Table link - http://bionumbers.hms.harvard.edu/files/Properties%20of%20pure%20liquid%20water%20at%2020%C2%B0C.jpg
+102518,Histidine volume,Volume,histidine,Generic,93.7,,,Å^3,9.370000000000002e-29,,,Other,93.7,
+102514,Uracil volume,Volume,uracil,Generic,110.8,,,Å^3,1.108e-28,,,Other,110.8,
+102515,Cytosine volume,Volume,cytosine,Generic,115.0,,,Å^3,1.1500000000000002e-28,,,Other,115,
+102519,Phenylalanine volume,Volume,phenylalanine,Generic,127.0,,,Å^3,1.2700000000000002e-28,,,Other,127,
+102520,Tyrosine volume,Volume,tyrosine,Generic,130.8,,,Å^3,1.3080000000000002e-28,,,Other,130.8,
+102516,Adenine volume,Volume,adenine,Generic,139.2,,,Å^3,1.392e-28,,,Other,139.2,
+102517,Guanine volume,Volume,guanine,Generic,145.9,,,Å^3,1.4590000000000003e-28,,,Other,145.9,
+102521,Tryptophan volume,Volume,tryptophan,Generic,162.6,,,Å^3,1.626e-28,,,Other,162.6,
+105808,Volume of cholesterol,Volume,cholesterol,Generic,0.541,,,nm^3,5.41e-28,,,Other,0.541,
+105807,Volume of dipalmitoylphosphatidylcholine (DPPC),Volume,dipalmitoylphosphatidylcholine (DPPC),Generic,1.22,,,nm^3,1.22e-27,,,Other,1.22,
+100482,Ribosome volume,Volume,ribosome,Generic,1.4,,,Î¼m^3,1.4e-18,,,Cell organelles,1.4E-05,
+100480,Globular protein volume,Volume,globular protein,Generic,6.6,,,µm^3,6.6e-18,,,Small molecules & proteins,6.6E-08,
+103241,Amino Acid volume,Volume,amino acid,Generic,,,,Å^3,,,,Small molecules & proteins,,'Data base link - http://jenalib.leibniz-fli.de/IMAGE_AA.html

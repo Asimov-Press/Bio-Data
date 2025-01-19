@@ -44,6 +44,49 @@ CELL_VOLUME_EXCLUDE_KEYWORDS = [
 ]
 
 
+def filter_ecoli_volumes(df):
+    """Filter for E. coli and Generic volume data"""
+    # Filter for E. coli and Generic data
+    mask = (df['Organism'].isin(['Bacteria Escherichia coli', 'Generic']))
+    filtered_data = df[mask].copy()
+    
+    # Apply volume filters
+    mask = (
+        # E. coli specific filters
+        (
+            (filtered_data['Organism'] == 'Bacteria Escherichia coli') &
+            (
+                filtered_data['property_type'].str.startswith('Volume occupied by', na=False) |
+                (filtered_data['property_type'] == '"Rule of thumb"') |
+                (
+                    (filtered_data['property_type'] == 'Volume') & 
+                    (filtered_data['property_of'] == 'cell')
+                )
+            )
+        ) |
+        # Generic organism filters
+        (
+            (filtered_data['Organism'] == 'Generic') &
+            (filtered_data['property_type'] == 'Volume')
+        )
+    )
+    return filtered_data[mask].sort_values(
+        by=['Organism', 'property_type', 'standardized_value', 'standardized_min'],
+        na_position='last'
+    )
+
+
+def filter_cell_volumes(df):
+    """Filter for cell volume measurements"""
+    # Filter for entries where Properties is "Cell volume" (case insensitive)
+    filtered_data = df[df['Properties'].str.lower() == 'cell volume'].copy()
+    
+    return filtered_data.sort_values(
+        by=['Organism', 'property_type', 'standardized_value', 'standardized_min'],
+        na_position='last'
+    )
+
+
 def main():
     # Load data
     df = load_bionumbers_data()
@@ -65,15 +108,28 @@ def main():
     # Analyze specific property type
     analyze_property_details(size_data, "Diameter")
     
-    # Sort by Organism and save processed data with today's date
-    size_data_sorted = size_data.sort_values(['property_type', 'standardized_value', 'standardized_min'])
+    # Get today's date for filenames
     today = date.today().strftime("%Y_%m_%d")
+    
+    # Save full dataset
+    size_data_sorted = size_data.sort_values(['property_type', 'standardized_value', 'standardized_min'])
     output_path = f"./cell_volume_dataset/output/processed_cell_volume_data_{today}.csv"
     size_data_sorted.to_csv(output_path, index=False)
+    
+    # Save E. coli volumes subset
+    ecoli_volumes = filter_ecoli_volumes(size_data)
+    ecoli_volumes.to_csv(f"./cell_volume_dataset/output/ecoli_component_volume_subset_{today}.csv", index=False)
+    
+    # Save cell volumes subset
+    cell_volumes = filter_cell_volumes(size_data)
+    cell_volumes.to_csv(f"./cell_volume_dataset/output/cell_volume_organisms_subset_{today}.csv", index=False)
 
     # Print summary
     print("\nData Summary:")
     print(f"Total entries: {len(size_data)}")
+    print(f"E. coli volume entries: {len(ecoli_volumes)}")
+    print(f"Cell volume entries: {len(cell_volumes)}")
+    
     print("\nEntries by category:")
     print(size_data['category'].value_counts())
     
