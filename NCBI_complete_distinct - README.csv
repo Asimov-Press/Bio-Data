@@ -1,0 +1,6 @@
+Data in this spreadsheet is pulled from the NCBI Genome database: https://www.ncbi.nlm.nih.gov/datasets/genome/
+"For each taxon, we have filtered for ""complete"" genomes"
+"For each set of complete genomes, we have removed duplicates according to ""Organism Name"""
+"What remains is a count of all distinct organisms, broken down by various hierarchies of taxa"
+
+Here is are there various assembly levels available in NCBI:
