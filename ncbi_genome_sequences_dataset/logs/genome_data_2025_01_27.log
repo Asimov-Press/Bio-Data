@@ -1,0 +1,26 @@
+2025-01-27 06:56:10,777 - INFO - NCBI datasets version: datasets version: 16.40.1
+2025-01-27 06:56:10,777 - INFO - Querying genome data for all taxons
+2025-01-27 06:56:10,777 - INFO - Running command: datasets summary genome taxon 2 --assembly-level chromosome,complete --as-json-lines
+2025-01-27 06:58:01,296 - INFO - Retrieved 125425 genome entries
+2025-01-27 06:59:40,141 - INFO - NCBI datasets version: datasets version: 16.40.1
+2025-01-27 06:59:40,141 - INFO - Querying genome data for all taxons
+2025-01-27 06:59:40,141 - INFO - Running command: datasets summary genome taxon 2 --assembly-level chromosome,complete --as-json-lines
+2025-01-27 07:01:22,895 - INFO - Retrieved 125425 genome entries
+2025-01-27 07:01:23,205 - INFO - Removed 106808 duplicate entries
+2025-01-27 07:01:23,567 - INFO - Running command: datasets summary genome taxon 2157 --assembly-level chromosome,complete --as-json-lines
+2025-01-27 07:01:25,842 - INFO - Retrieved 1520 genome entries
+2025-01-27 07:01:25,845 - INFO - Removed 848 duplicate entries
+2025-01-27 07:01:25,850 - INFO - Running command: datasets summary genome taxon 33208 --assembly-level chromosome,complete --as-json-lines
+2025-01-27 07:01:30,980 - INFO - Retrieved 6298 genome entries
+2025-01-27 07:01:30,991 - INFO - Removed 2637 duplicate entries
+2025-01-27 07:01:31,013 - INFO - Running command: datasets summary genome taxon 33090 --assembly-level chromosome,complete --as-json-lines
+2025-01-27 07:01:33,313 - INFO - Retrieved 2791 genome entries
+2025-01-27 07:01:33,318 - INFO - Removed 1556 duplicate entries
+2025-01-27 07:01:33,326 - INFO - Running command: datasets summary genome taxon 4751 --assembly-level chromosome,complete --as-json-lines
+2025-01-27 07:01:35,001 - INFO - Retrieved 1875 genome entries
+2025-01-27 07:01:35,005 - INFO - Removed 1234 duplicate entries
+2025-01-27 07:01:35,010 - INFO - Running command: datasets summary genome taxon 10239 --assembly-level chromosome,complete --as-json-lines
+2025-01-27 07:03:06,126 - INFO - Retrieved 220648 genome entries
+2025-01-27 07:03:06,478 - INFO - Removed 134428 duplicate entries
+2025-01-27 07:03:06,833 - INFO - Generating cumulative analysis for output/2025_01_27
+2025-01-27 07:03:06,923 - INFO - Saved cumulative analysis to output/2025_01_27/results.csv
