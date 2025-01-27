@@ -112,7 +112,10 @@ def process_genome_data(raw_data):
                 'organism_name': organism_info.get('organism_name'),
                 'organism_taxonomic_id': organism_info.get('tax_id'),
                 'assembly_release_date': assembly_info.get('release_date'),
-                'assembly_release_year': assembly_info.get('release_date').split('-')[0],
+                'assembly_release_year': (
+                    int(assembly_info.get('release_date').split('-')[0])
+                    if assembly_info.get('release_date') else None
+                ),
                 'checkm_completeness': checkm_info.get('completeness'),
                 'checkm_completeness_percentile': checkm_info.get('completeness_percentile'),
                 'checkm_contamination': checkm_info.get('contamination'),
@@ -126,6 +129,9 @@ def process_genome_data(raw_data):
             
     # Convert to DataFrame
     df = pd.DataFrame(processed_data)
+    
+    # Sort by release year so we only keep the first occurrence
+    df = df.sort_values('assembly_release_year')
     
     # Remove duplicates
     df_dedup = df.drop_duplicates(subset=['organism_taxonomic_id'])
