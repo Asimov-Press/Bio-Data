@@ -19,7 +19,7 @@ The script collects genome data with the following filters:
 - Specific taxon IDs (e.g., 10239 for viruses)
 - Assembly level: Only 'chromosome' or 'complete' assemblies
   - Excludes 'contig' and 'scaffold' level assemblies
-- Deduplicates entries by organism taxonomic ID
+- Deduplicates entries by organism taxonomic ID (we pick the first occurrence by assembly release year)
 
 ### Steps
 
