@@ -7,8 +7,9 @@ _We have collected a variety of datasets that break down two aspects of _E. coli
 ## Table of Contents
 
 - [Datasets](#datasets)
-  - [Dataset 1: *Dataset Name*](#dataset-1-dataset-name)
-  - [Dataset 2: *Dataset Name*](#dataset-2-dataset-name)
+  - [Dataset 1: *Macromolecular Compositions*](#macromolecular_composition.xlsx)
+  - [Dataset 2: *Protein Abundance in Various Conditions*](#protein_abundance_conditions.csv)
+  - [Dataset 3: *Protein Abundance | PaxDB *](#protein_abundance_paxDB.xlsx)
 - [Data Sources](#data-sources)
 - [Contact](#contact)
 
@@ -16,39 +17,44 @@ _We have collected a variety of datasets that break down two aspects of _E. coli
 
 ## Project Overview
 
-Provide a detailed overview of the project here. Explain the problem you’re solving, the goals, and any relevant background information.
+The datasets in this folder were collected for an Asimov Press article entitled: "What Are Cells Made From?"
 
 ---
 
 ## Datasets
 
-This section describes the datasets used in this project. Replace the placeholder text with your dataset information.
+This section describes the datasets used in this project.
 
-### Dataset 1: *Dataset Name*
-
-- **Description:**  
-  Describe what data is included, its purpose, and any important preprocessing details.
-- **Source:**  
-  [Link to Dataset](#)  
-- **Format:**  
-  CSV, JSON, etc.
-- **License:**  
-  Describe the licensing or usage rights.
-- **Notes:**  
-  Any additional notes or peculiarities about this dataset.
-
-### Dataset 2: *Dataset Name*
+### Dataset 1: *Macromolecular Compositions*
 
 - **Description:**  
-  Describe what data is included, its purpose, and any important preprocessing details.
+  This data breaks down the macromolecular composition of _E. coli_'s dry mass.
 - **Source:**  
-  [Link to Dataset](#)  
+  [BioNumbers](https://book.bionumbers.org/what-is-the-macromolecular-composition-of-the-cell/)  
 - **Format:**  
-  CSV, JSON, etc.
+  Excel file
 - **License:**  
-  Describe the licensing or usage rights.
-- **Notes:**  
-  Any additional notes or peculiarities about this dataset.
+  MIT License. If you replicate our visualization, please cite Asimov Press.
+
+### Dataset 2: *Protein Abundance in Various Conditions*
+
+- **Description:**  
+  This tidy dataset breaks down absolute numbers of proteins for _E. coli_ cells grown in various media conditions, such as glucose, acetate, and at varying temperatures or pH.
+- **Source:**  
+  [Schmidt A. _et al_ 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4888949/)  
+- **Format:**  
+  CSV
+
+### Dataset 3: *Protein Abundance | PaxDB*
+
+- **Description:**  
+  A simple download of the PaxDB database, which notably does not seem to include cytosolic proteins, or protein abundances in varied conditions.
+- **Source:**  
+  [PAXDB 5.0](https://pax-db.org)  
+- **Format:**  
+  Excel file
+- **License:**  
+  CC BY 4.0
 
 ---
 
