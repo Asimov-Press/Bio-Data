@@ -1,4 +1,4 @@
-# What is a Cell Made From?
+# What Limits a Cell's Size?
 
 _We have collected a variety of datasets that break down diffusion rates for various proteins in the E. coli proteome, and also the sizes of cells in the human body. These datasets come from multiple different sources, as described below._
 
