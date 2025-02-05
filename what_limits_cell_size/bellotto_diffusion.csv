@@ -1,0 +1,34 @@
+,,,,,,,,,
+Protein name,Molecular mass of sfGFP fusion construct,Biological function in E. coli,IPTG concentration used for FCS (FRAP),Number of cells analyzed by FCS,τD (µs; mean ± SEM),α (mean ± SEM),"Diffusion coefficient, FCS (μm2/s, mean ± SEM)",Number of cells analyzed by FRAP,"Diffusion coefficient, FRAP (μm2/s, mean ± SEM)"
+sfGFP,26.9,–,5 µM (15 µM),52,561±14,0.86±0.01,14.7±0.3,11,11.3±1.3
+YggX,39.2,Probable Fe (2+)-trafficking protein,5 µM (5 µM),8,611±19,0.85±0.01,12.9±0.4,10,9.4±1.6
+ClpS,39.2,ATP-dependent Clp protease adapter protein,0 µM,11,1054±33,0.75±0.01,,,
+FolK,45.1,2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase,0 µM,8,734±24,0.87±0.01,11.6±0.4,,
+Crr,45.2,Component of glucose-specific phosphotransferase enzyme IIA,0 µM,14,1065±36,0.87±0.01,,,
+UbiC,45.7,Chorismate pyruvate-lyase,15 µM,14,1140±58,0.87±0.01,,,
+ThpR,46.9,"RNA 2′,3′-cyclic phosphodiesterase",Discarded due to instability of sfGFP fusion construct,,,,,,
+CoaE,49.6,Dephospho-CoA kinase,0 µM,11,854±47,0.87±0.01,9.8±0.6,,
+Adk,50.6,Adenylate kinase,5 µM (15 µM),23,802±26,0.88±0.00,10.6±0.4,16,9.8±1.5
+Cmk,51.7,Cytidylate kinase,5 µM,16,1163±58,0.87±0.01,,,
+NagD,54.1,Ribonucleotide monophosphatase,Discarded due to non-uniform protein localization,,,,,,
+KdsB,54.6,3-deoxy-manno-octulosonate cytidylyltransferase,0 µM,11,1659±70,0.84±0.01,,,
+Map,56.3,Methionine aminopeptidase,0 µM,20,1830±78,0.81±0.01,,,
+MmuM,60.4,Homocysteine S-methyltransferase,5 µM,14,2241±138,0.73±0.01,,,
+RihA,60.8,Pyrimidine-specific ribonucleoside hydrolase,Discarded due to non-uniform protein localization,,,,,,
+PanE,60.8,2-dehydropantoate 2-reductase,0 µM (5 µM),18,1059±26,0.85±0.01,7.8±0.2,11,5.2±0.6
+SolA,67.9,N-methyl-L-tryptophan oxidase,0 µM,7,795±31,0.82±0.01,9.9±0.5,,
+Pgk,68.1,Phosphoglycerate kinase,0 µM,16,991±41,0.90±0.01,8.6±.0.3,,
+EntC,69.9,Isochorismate synthase,15 µM,15,1777±119,0.82±0.01,,,
+AroA,73.1,3-phosphoshikimate 1-carboxyvinyltransferase,5 µM,9,995±69,0.86±0.01,8.7±0.7,,
+ThrC,74.1,Threonine synthase,0 µM,14,908±28,0.87±0.01,9.1±0.3,,
+MurF,74.4,UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase,0 µM,7,1008±76,0.85±0.02,8.3±0.7,,
+DsdA,74.9,D-serine dehydratase,0 µM,14,1017±53,0.89±0.01,8.4±0.4,10,7.8±0.7
+HemN,79.7,Oxygen-independent coproporphyrinogen III oxidase,0 µM,13,1262±54,0.86±0.01,6.7±0.4,,
+PrpD,80.9,2-methylcitrate dehydratase,0 µM,12,1866±140,0.84±0.01,,,
+DnaK,96.0,Molecular chaperone,5 µM,10,2296±78,0.76±0.01,,,
+MalZ,96.0,Maltodextrin glucosidase,0 µM,9,3725±229,0.77±0.01,,,
+GlcB,107.5,Malate synthase G,5 µM (15 µM),16,1315±45,0.86±0.01,6.4±0.2,10,6.7±1.1
+MetE,111.7,5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase,5 µM,8,1137±53,0.87±0.01,7.4±0.3,,
+LeuS,124.2,Leucine--tRNA ligase,0 µM,14,1637±75,0.86±0.01,5.1±0.2,,
+AcnA,124.7,Aconitate hydratase A,5 µM (15 µM),19,1415±56,0.86±0.01,6.1±0.2,10,4.3±0.4
+MetH,163.0,Methionine synthase,0 µM (5 µM),9,1402±45,0.81±0.01,5.8±0.1,15,4.0±0.5
