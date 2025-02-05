@@ -9,7 +9,7 @@ _We have collected a variety of datasets that break down diffusion rates for var
 - [Datasets](#datasets)
   - [Dataset 1: *Experimentally-determined diffusion rates of various proteins*](#bellotto_diffusion.csv)
   - [Dataset 2: *Calculated diffusion rates for the E. coli proteome*](#Diffusion_Rates_with_kDa.csv)
-  - [Dataset 3: *Size of Various Human Cells*](#Human Cell Sizes.xlsx)
+  - [Dataset 3: *Size of Various Human Cells*](#human_cell_sizes.xlsx)
 - [Data Sources](#data-sources)
 - [Contact](#contact)
 
