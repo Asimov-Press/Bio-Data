@@ -39,7 +39,7 @@ This section describes the datasets used in this project.
 ### Dataset 2: *Protein Abundance in Various Conditions*
 
 - **Description:**  
-  This tidy dataset breaks down absolute numbers of proteins for _E. coli_ cells grown in various media conditions, such as glucose, acetate, and at varying temperatures or pH.
+  This tidy dataset breaks down absolute numbers of proteins for _E. coli_ cells grown in 22 different media conditions, such as glucose, acetate, and at varying temperatures or pH. This dataset was used for two charts in the accompanying Data Brief article.
 - **Source:**  
   [Schmidt A. _et al_ 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4888949/)  
 - **Format:**  
